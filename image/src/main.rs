@@ -21,7 +21,7 @@ use piston::{
 };
 
 fn main() {
-    let opengl = piston::shader_version::opengl::OpenGL_3_2;
+    let opengl = piston::shader_version::opengl::OpenGL_2_1;
     let mut window = WindowSDL2::new(
         opengl,
         WindowSettings {
